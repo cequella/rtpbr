@@ -13,75 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Arquivos de Cabeçalho\include">
+      <UniqueIdentifier>{9de92d63-9f51-4c54-9f77-29124426202e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\src">
+      <UniqueIdentifier>{f2b25273-e170-4a65-b1a6-a16b56a14eab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
     <ClCompile Include="Window.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="KeyboardListener.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="VulkanPhysicalDevice.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="VulkanLogicalDevice.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="VulkanInstance.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="VulkanSwapChain.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="VulkanImageView.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="GraphicPipeline.cpp">
-      <Filter>Arquivos de Origem</Filter>
+      <Filter>Arquivos de Origem\src</Filter>
     </ClCompile>
     <ClCompile Include="FrameBuffer.cpp">
-      <Filter>Arquivos de Origem</Filter>
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicPipeline.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardListener.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanImageView.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanInstance.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanLogicalDevice.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanPhysicalDevice.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanSwapChain.cpp">
+      <Filter>Arquivos de Origem\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Window.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="IScene.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="KeyboardListener.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="IKeyboardSensor.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="IO.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanPhysicalDevice.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanLogicalDevice.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanInstance.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanSwapChain.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanImageView.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="GraphicPipeline.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
+      <Filter>Arquivos de Cabeçalho\include</Filter>
     </ClInclude>
     <ClInclude Include="FrameBuffer.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicPipeline.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IKeyboardSensor.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardListener.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanImageView.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanInstance.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanLogicalDevice.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanPhysicalDevice.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanSwapChain.h">
+      <Filter>Arquivos de Cabeçalho\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
