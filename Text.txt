@@ -1,0 +1,13 @@
+// Count available extension
+	uint32_t extensionCount;
+	bool success = SDL_Vulkan_GetInstanceExtensions(_window, &extensionCount, nullptr);
+	if (not success) {
+		throw std::runtime_error("SDL2 could not get Vulkan extensions count");
+	}
+
+	// List available extensions
+	std::vector<const char*> extensions(extensionCount + mandatoryAmount);
+	success = SDL_Vulkan_GetInstanceExtensions(_window, &extensionCount, extensions.data() + mandatoryAmount);
+	if (not success) {
+		throw std::runtime_error("SDL2 could not get Vulkan extensions names");
+	}
